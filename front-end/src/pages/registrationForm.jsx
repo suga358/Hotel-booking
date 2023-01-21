@@ -22,6 +22,9 @@ export default function RegistrationForm() {
       const response = await axios.post("/bookings", value);
       console.log("response", response);
       formik.resetForm();
+      alert(
+        "Thank you for Booking,booking details has been sent on your phone !"
+      );
     },
   });
   return (
@@ -29,7 +32,6 @@ export default function RegistrationForm() {
       <div id="bg"></div>
       <div id="main">
         <div id="content">
-          <img src=""></img>
           <h1>Discover the perfect balance of harmony and comfort</h1>
           <h5>
             We are foused on providing clients with the highest level of quality
@@ -160,6 +162,7 @@ export default function RegistrationForm() {
                 <label>Room Type:</label>
               </div>
               <select name="category" onChange={formik.handleChange}>
+              <option>Select Room Type</option>
                 <option value={formik.values.single}>Single</option>
                 <option value={formik.values.double}>Double</option>
                 <option value={formik.values.triple}>Triple</option>

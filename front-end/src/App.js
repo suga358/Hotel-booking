@@ -5,7 +5,6 @@ import Admin from "./pages/admin";
 import NavBar from "./pages/navBar";
 import EntryBook from "./pages/EntryBook";
 
-
 function App() {
   return (
     <div className="App">
@@ -13,12 +12,9 @@ function App() {
         <NavBar />
 
         <Routes>
-          
           <Route path="/" element={<RegistrationForm />} />
-          <Route path="/admin" element={<Admin />}/>
+          <Route path="/admin" element={<Admin />} />
           <Route exact path="/entrybook" element={<EntryBook />} />
-         
-          
         </Routes>
       </BrowserRouter>
     </div>
