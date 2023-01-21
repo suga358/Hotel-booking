@@ -1,8 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
+mongoose.set('strictQuery', true)
 const bodyParser = require("body-parser");
 const mongoDB =
-  "mongodb+srv://sugat:sugat@cluster0.y5zmrgq.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://sugat:Sugat@cluster0.2hejyfl.mongodb.net/?retryWrites=true&w=majority"
 const jsonParser=bodyParser.json()
 const dataBase=mongoose.connect(mongoDB)
 const app= express()
