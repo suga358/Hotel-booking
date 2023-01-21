@@ -1,0 +1,42 @@
+#bk {
+    margin: 0;
+    padding: 0;
+    background: url(./admin2.jpg);
+    background-size: 100% 100%;
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.Admin-portal{
+   background: rgba(205, 209, 211, 0.514);
+   
+}
+
+#heading{
+    position: absolute;
+    top: 50px;
+    right:100px;
+    font-family: cursive;
+    color:hsla(7, 89%, 63%, 0.887);
+    font-weight: 800;
+}
+#link1{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    text-decoration: none;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#link2{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    text-decoration: none;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

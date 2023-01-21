@@ -1,0 +1,18 @@
+#nav{
+    background: hsla(7, 89%, 63%, 0.887);
+    height: 40px;
+    
+
+}
+.link{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top: 5px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+
+}
