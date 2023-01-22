@@ -13,9 +13,7 @@ export default function Admin() {
         <Link to="/entrybook" id="link1">
           Entry Book
         </Link>
-        <Link to="/filter" id="link2">
-          Filter
-        </Link>
+  
       </div>
     </div>
   );
