@@ -33,7 +33,7 @@ table ,th, td{
     position: relative;
     bottom: 15px;
 }
-input{
+table input{
     width: 60px;
     height: 5px ;
 }
