@@ -4,23 +4,21 @@ body{
     background: rgba(205, 209, 211, 0.514);
 }
 
+#table-container{
+    margin-top: 100px;
+    text-align: center;
+}
 
 
 table ,th, td{
-    border: 2px solid hsla(7, 89%, 63%, 0.887);
+    
+    border: 2px solid hsla(0, 0%, 6%, 0.887);
   border-collapse: collapse;
   text-align: center;
   padding: 5px;
-  margin-left: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: rgb(55, 5, 124);
-
-}
-#entry{
-     font-family:  serif; 
-    text-align: center;
-    color: hsla(0, 0%, 6%, 0.887);
-    font-weight: bolder;
-
 
 }
 #link{
@@ -34,4 +32,13 @@ table ,th, td{
     text-decoration: none;
     position: relative;
     bottom: 15px;
+}
+input{
+    width: 60px;
+    height: 5px ;
+}
+
+h1{
+    font-family: serif;
+    padding: 5px;
 }
